@@ -20,9 +20,9 @@ public class Main {
             int input1 = Integer.parseInt(st.nextToken());
             int input2 = Integer.parseInt(st.nextToken());
             bw.write(input1 + input2 + "\n");
-            bw.write(i);
         }
 
+        bw.flush();
         bw.close();
     }
 }
